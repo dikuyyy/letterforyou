@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Letter for u</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body style="font-family: 'Caveat', 'sans-serif'">
+    <div
+      class="flex h-screen w-full p-4"
+      style="
+        background: url('https://img.freepik.com/free-photo/white-concrete-wall_53876-92803.jpg?w=740&t=st=1669917128~exp=1669917728~hmac=8f69620075f2f951ed04568031335030b9b1b621441bd9eb7a56e186f3afbc17');
+      "
+    >
+      <audio id="myAudio" autoplay>
+        <source src="audio.mp3" type="audio/mpeg" />
+        Your browser does not support the audio element.
+      </audio>
+
+      <div class="font-caveat font-bold">
+        <div class="element"></div>
+        <button type="button" id="play" onclick="playAudio()"></button>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.6.1.js"
+      integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      setTimeout(() => {
+        var options = {
+          strings: [
+            `<p class="text-3xl my-2">to you</p> <p class="text-xl"> Haloo fii. Maaf, yaa pengen minta waktu nya sebentar aja hehe, aa cuma pengen nitip pesan ajaa buat alfi, siapa tau sedang susah hatinya :). <br /> <br /> Mau minta tolong, minta tolongnya banget2an ini mah. Fii, tolong kalau bisa, jangan pakai energi alfi buat khawatir yaa. <br /> <br /> <span class="text-center block">Pakai energi alfi buat "sembuh"</span> <span class="text-center block">Untuk "memaafkan"</span> <span class="text-center block">Untuk mulai "percaya" lagi</span> <span class="text-center block">Untuk mulai "tumbuh" lagi</span> <span class="text-center block" >Dan untuk nikmatin present moment, saat ini</span > <br /> <br /> <span >Aa gak bilang mudah ya. Susah sekali malahan, tapi aa yakin alfi bisa. Aa selalu disini buat alfi</span > </p>`,
+          ],
+          typeSpeed: 50,
+        };
+
+        var typed = new Typed(".element", options);
+      }, 1000);
+    </script>
+  </body>
+</html>
